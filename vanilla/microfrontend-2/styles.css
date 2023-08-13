@@ -1,0 +1,20 @@
+.microfrontend-container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+#mf2-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#mf2-button:hover {
+    background-color: #0056b3;
+}
