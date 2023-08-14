@@ -1,21 +1,36 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-function App() {
+const Home = () => {
+  return <h2>Home</h2>;
+};
+
+const About = () => {
+  return <h2>About</h2>;
+};
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to My React App</h1>
-      </header>
-      <main>
-        <p>
-          Edit <code>App.tsx</code> and save to reload.
-        </p>
-      </main>
-      <footer>
-        <p>Footer content here</p>
-      </footer>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
