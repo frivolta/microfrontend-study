@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import AboutLoader from "./loaders/AboutLoader";
 
 const Home = () => {
   return <h2>Home</h2>;
@@ -26,7 +27,7 @@ const App: React.FC = () => {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutLoader />} />
         </Routes>
       </div>
     </Router>
