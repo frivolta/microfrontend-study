@@ -1,5 +1,5 @@
 {
     "imports": {
-        "about-microfrontend": "http://localhost:9001/aboutMicrofrontend.bundle.js"
+        "about-microfrontend": "/_temp_bundle_example/about-microfrontend/aboutMicrofrontend.bundle.js"
     }
 }
