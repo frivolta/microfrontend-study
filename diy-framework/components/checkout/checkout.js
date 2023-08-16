@@ -1,7 +1,15 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import ReactDOM from 'react-dom'
 
-const Checkout = ({productId}) => {
+const Checkout = ({store}) => {
+    const [productId, setProductId] = useState(0)
+    useEffect(() => {
+        store.productId.subscribe({
+            next: (val) => {
+                setProductId(val)
+            }
+        })
+    }, [])
     return (
         <div>
             <h1>Checkout</h1>
