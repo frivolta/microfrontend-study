@@ -10,3 +10,4 @@
 - in-browser vs build-time: https://www.youtube.com/watch?v=Jxqiu6pdMSU&list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU&index=2
 - lazy-loading: https://www.youtube.com/watch?v=-LkvBMpCK-A&list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU&index=8
 - Single-spa / Microfrontends: using bundlers, Webpack, and Rollup: https://www.youtube.com/watch?v=I6COIg-2lyM&list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU&index=9
+- Import maps: https://www.digitalocean.com/community/tutorials/how-to-dynamically-import-javascript-with-import-maps
